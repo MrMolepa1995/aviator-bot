@@ -35,7 +35,7 @@ async def data(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Run bot
 if __name__ == "__main__":
     import os
-    TOKEN = "7752613205:AAE1TIrEFZKhEtLkLQjmc_GCsugEQQz8Q3U"  # Replace with your bot token
+    TOKEN = "YOUR_BOT_TOKEN"  # Replace with your bot token
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
